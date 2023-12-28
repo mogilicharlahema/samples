@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            border: 1px solid olive;
+            background-color: blueviolet;
+            margin-left: 350px;
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+            position: absolute;
+            bottom: 300px;
+            left:250px;
+            border-radius:40px;
+            text-align:center;
+            
+        }
+        .main{
+            border: 5px solid gainsboro;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: cornflowerblue;
+        }
+        input[value="scale "]:checked~.d1{
+            transform: scale(2,3);
+        }
+    input[value="rotate 1"]:checked~.d1{
+        transform: rotate(10deg);
+        background-color: crimson;
+    }
+    input[value="rotate 2"]:checked~.d1{
+        transform: rotate(45deg);
+        background-color: chocolate;
+    }
+    input[value="rotate 3"]:checked~.d1{
+        transform: rotateX(45deg);
+        background-color: cadetblue;
+    }
+    input[value="rotate 4"]:checked~.d1{
+        transform: rotateX(100deg);
+        background-color: darkgoldenrod;
+    }
+    input[value="rotate 5"]:checked~.d1{
+        transform: rotateY(45deg);
+        background-color: darkkhaki;
+    }
+    input[value="rotate 6"]:checked~.d1{
+        transform: rotateY(8odeg);
+        background-color: cornsilk;
+    }
+    input[value="skew 1"]:checked~.d1{
+        transform: skew(20deg,20deg);
+        background-color: darkred;
+    }
+    input[value="skew 2"]:checked~.d1{
+        transform: skew(30deg,30deg);
+        background-color: darkorange;
+    }
+    input[value="skew 3"]:checked~.d1{
+        transform: skewX(30deg);
+        background-color: darkgray;
+    }
+    input[value="skew 4"]:checked~.d1{
+        transform: skewX(40deg);
+        background-color: darksalmon;
+    }
+    input[value="skew 5"]:checked~.d1{
+        transform: skewY(30deg);
+        background-color: darkslategrey;
+    }
+    input[value="skew 6"]:checked~.d1{
+        transform: skewY(40deg);
+        background-color: deeppink;
+    }
+    input[value="translate 1"]:checked~.d1{
+        transform: translate(20px,10px);
+        background-color: dodgerblue;
+    }
+    input[value="translate 2"]:checked~.d1{
+        transform: translate(20px,20px);
+        background-color: bisque;
+    }
+    input[value="scale 1"]:checked~.d1{
+        transform: scale(2,2);
+        background-color: firebrick;
+    }
+    input[value="matrix 1"]:checked~.d1{
+        transform: matrix(0.866,0.7,-0.7,0.866,0,0);
+        background-color: lawngreen;
+    }
+    input[value="matrix 2"]:checked~.d1{
+        transform: matrix(0.586,0.8,-0.8,0,0,585,0,0);
+        background-color: aqua;
+    }
+    input[value="matrix 3"]:checked~.d1{
+        transform: matrix(0.585,0.8,-0.8,0.586,40,30);
+        /* background-color: olivedrab; */
+        
+    }
+    h1{
+        border: 2px solid lavender;
+        height: 50px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: mediumpurple;
+        background-color:lightcoral;
+    }
+    .a1{
+        border: 1px solid bisque;
+         padding-right: 150px;
+         padding: 5px;
+         border-radius: 5px;
+         color: white;
+         background-color:darkgrey;
+         
+    }
+    
+    
+    
+        
+    </style>
+</head>
+<body>
+    <h1>CSS transforms</h1>
+    <div class="main">
+    
+    <input type="radio" value="scale" name="transform"/>
+    <span class="a1">Transform none:</span><br><br>
+   
+    <input type="radio" value="rotate 1" name="transform" />
+    <span class="a1">transform:rotate(10deg)</span><br><br>
+    
+    <input type="radio" value="rotate 2" name="transform"/>
+    <span class="a1">transform:rotate(45deg)</span><br><br>
+
+    <input type="radio" value="rotate 3" name="transform"/>
+    <span class="a1">transform:rotateX(45deg)</span><br><br>
+
+    <input type="radio" value="rotate 4" name="transform"/>
+    <span class="a1">transform:rotateX(100deg)</span><br><br>
+
+    <input type="radio" value="rotate 5" name="transform"/>
+    <span class="a1">transform:rotateY(45deg)</span><br><br>
+
+    <input type="radio" value="rotate 6" name="transform"/>
+    <span class="a1">transform:rotateY(80deg)</span><br><br>
+
+    <input type="radio" value="skew 1" name="transform"/>
+    <span class="a1">transform:skew(20deg,20deg)</span><br><br>
+
+    <input type="radio" value="skew 2" name="transform"/>
+    <span class="a1">transform:skew(30deg,30deg)</span><br><br>
+
+    <input type="radio" value="skew 3" name="transform"/>
+    <span class="a1">transform:skewX(30deg)</span><br><br>
+    
+
+    <input type="radio" value="skew 4" name="transform"/>
+    <span class="a1">transform:skewX(40deg)</span><br><br>
+
+    <input type="radio" value="skew 5" name="transform"/>
+    <span class="a1">transform:skewY(30deg)</span><br><br>
+
+    <input type="radio" value="skew 6" name="transform"/>
+    <span class="a1">transform:skewY(40deg)</span><br><br>
+
+    <input type="radio" value="translate 1" name="transform"/>
+    <span class="a1">transform:translate(20px,10px)</span><br><br>
+
+    <input type="radio" value="translate 2" name="transform"/>
+    <span class="a1">transform:translate(20px,20px)</span><br><br>
+
+    <input type="radio" value="scale 1" name="transform"/>
+    <span class="a1">transform:scale(2,2)</span><br><br>
+    
+
+    <input type="radio" value="matrix 1" name="transform"/>
+    <span class="a1">transform:matrix(0.866,0.7,-0.7,0.866,0,0)</span><br><br>
+    
+
+    <input type="radio" value="matrix 2" name="transform"/>
+    <span class="a1">transform:matrix(0.586,0.8,-0.8,0,0.585,0,0)</span><br><br>
+    
+
+    <input type="radio" value="matrix 3" name="transform"/>
+    <span class="a1">transform:matrix(0.585,0.8,-0.8,0.586,40,30)</span><br><br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div class="d1">The transform property applies a 2D or 3D transformation to an element.This property allows you to rotate ,scale,move,skew,etc..,elements.</div><br>
+</div>
+</body>
+</html>
