@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+         
+             border: 5px solid bisque;  
+           height: 750px;
+           width: 350px;
+           box-shadow: 5px 2px 2px 2px;
+           
+          
+           
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 30px 30px 30px 30px 30px 30px;
+            grid-template-rows: 30px 30px 30px 30px 30px 30px ;
+            gap: 25px;
+            
+    
+        }
+        .items{
+            background-color:lavender;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            border: 1px solid black;
+            border-radius: 20%;
+            margin-top: 15px;
+        }
+        .item1, .item2,.item3,.item4,.item0 {
+            border-radius:50px;
+            background-color: white;
+        } 
+        .b1{
+            border: 1px solid darkgray;
+            height: 100px;
+            width: 310px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background-color: darkgrey;
+            
+        }
+        .b2{
+            border: 1px solid lightblue;
+            height: 100px;
+            background-color: lightblue;
+            
+            
+            
+        }
+            
+        
+        
+
+        
+        .item0{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border-radius: 70%;
+            margin-left:15px ;
+            margin-top: 20px;
+        }
+        .h2 {
+            /* width: 300px; */
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px;
+            row-gap: 10px;
+            column-gap: 10px;
+            text-align: center;
+            margin-left: 15px;
+            margin-top:-5px ;
+
+        }
+
+        .a1 {
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darksalmon;
+
+
+        }
+
+        
+
+        .c1,
+        .c2 {
+            background-color: red;
+        }
+
+        .d1 {
+            background-color: lightslategray;
+        }
+        P{
+            position: relative;
+            bottom: 30px;
+            left: 260px;
+            top: 10px;
+        }
+        h3{
+            position: relative;
+            top: 50px;
+            
+        }
+        
+        
+
+      
+
+   </style>
+</head>
+
+<body>
+    <div class="main">
+        <h3>CASIO</h3>
+        <P>fx-83GTX</P>
+        <div class="b1"><div class="b2 " >525+630</div>
+        <div class="box">
+            <div class=" items item0">0</div>
+            <div class=" items item1">shift</div>
+            <div class=" items item2">Alpha</div>
+            <div class=" items item3">mode clr</div>
+            <div class=" items item4">on</div>
+            <div class=" items item5">x-1</div>
+            <div class=" items item6">nCr</div>
+            <div class=" items item7">pol(</div>
+            <div class=" items item8">x3</div>
+            <div class=" items item9">ab/c</div>
+            <div class=" items item10">%</div>
+            <div class=" items item11">x2</div>
+            <div class=" items item12">^</div>
+            <div class=" items item13">log</div>
+            <div class=" items item14">ln</div>
+            <div class=" items item15">(-)</div>
+            <div class=" items item16">.,,,</div>
+            <div class=" items item17">hyp</div>
+            <div class=" items item18">sin</div>
+            <div class=" items item19">cos</div>
+            <div class=" items item20">tan</div>
+            <div class=" items item21">RCL</div>
+            <div class=" items item22">ENG</div>
+            <div class=" items item23">(</div>
+            <div class=" items item24">)</div>
+            <div class=" items item25">,</div>
+            <div class=" items item26">M+</div>
+            <!-- <div class=" items item27">8</div>
+            <div class=" items item28">8</div>
+            <div class=" items item29">7</div>
+            <div class=" items item30">7</div> -->
+        </div>
+        <!-- <div class="h1">
+            <div class="a1 z2"></div>
+            <div class="a1 s1 v1 e1">1</div>
+            <div class="a1 s2 v1">2</div>
+            <div class="a1 v1 z1">3</div>
+            <div class="a1 v1 ">4</div>
+            <div class="a1 s3 v1">5</div>
+            <div class="a1 s4 v1">6</div>
+            <div class="a1 v1">x3</div>
+            <div class="a1 v1">nCr</div>
+            <div class="a1 b1 v1">1</div>
+            <div class="a1 b2 v1">2</div>
+            <div class="a1 v1">pol</div>
+            <div class="a1 v1">x-3</div>
+            <div class="a1">ab/c</div>
+            <div class="a1">%</div>
+            <div class="a1">x2</div>
+            <div class="a1">^</div>
+            <div class="a1">log</div>
+            <div class="a1">ln</div>
+            <div class="a1">(-)</div>
+            <div class="a1">.,,,</div>
+            <div class="a1">hyp</div>
+            <div class="a1">sin</div>
+            <div class="a1">cos</div>
+            <div class="a1">tan</div>
+            <div class="a1">RCL</div>
+            <div class="a1">ENG</div>
+            <div class="a1">(</div>
+            <div class="a1 s">)</div>
+            <div class="a1">*</div>
+            <div class="a1">M+</div>
+        </div> -->
+        <div class="h2">
+            <div class="a1 d1">7</div>
+            <div class="a1 d1">8</div>
+            <div class="a1 d1">9</div>
+            <div class="a1 c1">DEL</div>
+            <div class="a1 c2">AC</div>
+            <div class="a1 d1">4</div>
+            <div class="a1 d1">5</div>
+            <div class="a1 d1">6</div>
+            <div class="a1 d1">X</div>
+            <div class="a1 d1">/</div>
+            <div class="a1 d1">1</div>
+            <div class="a1 d1">2</div>
+            <div class="a1 d1">3</div>
+            <div class="a1 d1">+</div>
+            <div class="a1 d1">-</div>
+            <div class="a1 d1">0</div>
+            <div class="a1 d1">.</div>
+            <div class="a1 d1">EXP</div>
+            <div class="a1 d1">Ans</div>
+            <div class="a1 d1">=</div>
+        </div>
+    
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
