@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+  
+    
+    
+     .main{
+        border: 1px solid transparent;
+        width: 100%;
+        height: 700px;
+        background-image: url(../images/plant\ 3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        overflow: hidden;
+    }
+    .navbar{
+        
+        display: flex;
+        justify-content: space-between;
+        /* margin-left: 50px; */
+        padding: 0 20px;
+        
+        position: sticky;
+    }
+    h1{
+        color: brown;
+        /* position: relative; */
+        right: 150px;
+        padding: 5px;
+    }
+    h1:hover{
+        background-color: darkslategrey;
+    }
+    
+   p{
+    color:wheat;
+    padding: 5px;
+   }
+   .a1{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    justify-content: center;
+    color: whitesmoke;
+    position: absolute;
+    left: 530px;
+    top: 250px;
+   }
+   .a2{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 520px;
+    font-style: italic;
+   }
+   .second{
+    border: 1px solid transparent;
+    width: 900px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 250px;
+   }
+   h2{
+    position: absolute;
+    bottom: -100px;
+    left: 800px;
+    color: red;
+    font-size: 35px;
+ }
+ .a3{
+    position: absolute;
+    bottom: -250px;
+    left:650px ;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .a4{
+        margin-left: 650px;
+        color: chocolate;
+        margin-top: 10px;
+    }
+    
+    .third{
+        border: 1px solid transparent;
+        height: 420px;
+        width: 1000px;
+        margin-left: 280px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    .b1{
+        color: cadetblue;
+    }
+    .s1{
+        position: absolute;
+        top: 1230px;
+        left: 650px;
+    }
+    .s2{
+        position: absolute;
+        top: 1230px;
+        right: 250px;
+    }
+    .c1{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .four{
+      border: 1px solid transparent;
+      height: 200px;
+      width: 100%;
+      margin-top: 30px;
+      background-image: url(../images/green\ wall.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+    }
+    .i1{
+      color: white;
+      margin-top: 40px;
+      margin-left: 240px;
+      font-size: 40px;
+    }
+    .p1{
+      color: white;
+      margin-left: 200px;
+      margin-top: 15px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .i2{
+      color:white;
+      position: absolute;
+      top: 1670px;
+      left: 520px;
+      font-size: 40px;
+    }
+    .p2{
+      color: white;
+      margin-left: 400px;
+      margin-top: -80px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .i3{
+      color:white;
+      font-size: 40px;
+      position: absolute;
+      left: 800px;
+      bottom: -970px;
+    }
+    .p3{
+      color: white;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: -80px;
+      margin-left:800px ;
+    }
+    .i4{
+      color: white;
+      font-size: 40px;
+      position: absolute;
+      bottom: -970px;
+      left: 1150px;
+    }
+    .p4{
+      color: white;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 1100px;
+      margin-top: -70px;
+    }
+    .five{
+      border: 1px solid transparent;
+      height: 600px;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .i5{
+      color: palevioletred;
+      font-size: 40px;
+      margin-left: 350px;
+      margin-top: 50px;
+    }
+    .i6{
+      color: palevioletred;
+      font-size: 40px;
+      position: absolute;
+      left: 800px;
+      bottom: -1310px;
+    }
+    .d1{
+      color: darkgray;
+      font-size: 25px;
+      position: absolute;
+      left: 720px;
+      bottom: -1380px;
+    }
+    .d2{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      margin-top: -110px;
+      margin-left: 520px;
+    }
+    .d3{
+      position: absolute;
+      bottom: -1300px;
+      left: 1250px
+    }
+    .d4{
+      color: darkgray;
+      position: absolute;
+      font-size: 25px;
+      left: 1200px;
+      bottom: -1370px;
+      }
+      .d5{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        position:absolute ;
+        left: 1200px;
+        top: 2110px;
+      }
+      .d6{
+        position: absolute;
+       right: 1140px;
+      }
+      .d7{
+        color: darkgray;
+        font-size: 25px;
+        position: absolute;
+        left: 300px;
+        top: 2270px;
+      }
+      .d8{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        left: 280px;
+        bottom: -1650px;
+      }
+      .d9{
+        font-size: 40px;
+        color: palevioletred;
+        position: absolute;
+        right: 650px;
+        top: 2230px;
+      }
+      .f1{
+        color: darkgray;
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: -40px;
+      }
+      .f2{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -30px;
+      }
+      .f3{
+        font-size: 40px;
+        color: palevioletred;
+        position: absolute;
+        left: 1300px;
+        bottom: -1530px;
+        }
+        .f4{
+          font-size: 25px;
+          color: darkgray;
+          position: absolute;
+          right: 120px;
+          bottom: -1600px;
+        }
+        .f5{
+          font-size: 15px;
+          font-family: 'Times New Roman', Times, serif;
+          position: absolute;
+          right: 100px;
+          bottom: -1650px;
+        }
+        .six{
+          border: 1px solid transparent;
+          width: 100%;
+          height: 780px;
+          margin-top: 20px;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          justify-content: center;
+          padding: 15px;
+          gap: 5px;
+          }
+          .seven{
+            border: 1px solid transparent;
+            width: 100%;
+            height: 300px; 
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            overflow-y: hidden; 
+          }
+           .c{
+            position: relative;
+            top: 100px;
+            left: 120px;
+            padding: 20px;
+          }
+            
+          .d{
+            position: relative;
+            top: 200px;
+            left: -350px;
+            padding: 20px;
+          }
+          .w{
+            color: brown;
+          }
+          .m{
+            position: relative;
+            left: 500px;
+            padding: 20px;
+          }
+          .ol{
+            color:crimson;
+
+          }
+             
+          
+    
+    
+
+
+</style>
+<body>
+  <div class="main"> 
+   
+   <div class="navbar">
+   <div> <h1>Mulching</h1></div>
+    <div style="display: flex; column-gap: 35px;">
+   <!-- <p>Home</p> -->
+   <li><a style="color: wheat; text-decoration: none;" href="#">Home</a></li>
+  <li><a style="color: wheat; text-decoration: none;" href="#about">About</a></li>
+  <li><a style="color: wheat; text-decoration: none;"  href="#services">Services</a></li>
+  <li><a style="color: wheat; text-decoration: none;" href="#gallery">Gallery</a></li>
+  <li><a style="color: wheat; text-decoration: none;" href="#Contact Us">Contact Us</a></li>
+  
+  <!-- <P>About</P>
+  <p>Services</p>
+  <p>Gallery</p>
+  <p>Contact us</p> -->
+</div>
+</div>
+<hr>
+<p class="a1"><b>Welcome to our farm</b></p>
+<p class="a2">Offering farming solutions World wide</p>
+  </div> 
+  <!-- close 1 div -->
+  <div class="second" id="about">
+<img style="border-radius: 10px; margin-top: 20px; margin-left: 30px;" src="../images/farming 2.jpg" height="300px" width="300px">
+<h2><b>About our farm</b></h2>
+<pre class="a3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium
+nemo corporis cumque ipsa nisi culpa, laboriosam magnam blanditiis 
+perferendis distinctio laborum atque nihil voluptas,error, ipsum numquam!
+Porro, mollitia!</pre>
+
+     </div>
+     <!-- close 2 div -->
+     <h1 class="a4">Why Choose Us</h1>
+     <div class="third">
+        <div class="card c1" style="width: 18rem;">
+            <img src="../images/beet.jpg" class="card-img-top" alt="beetroot">
+            <div class="card-body">
+              <h5 class="card-title">Quality Products</h5>
+              <p class="card-text b1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+             </div>
+          </div>
+          <div class="card s1" style="width: 18rem;">
+            <img src="../images/green house.jpg" height="220px" class="card-img-top" alt="green house">
+            <div class="card-body">
+              <h5 class="card-title">Work Smart</h5>
+              <p class="card-text b1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+             </div>
+          </div>
+          <div class="card s2" style="width: 17rem;">
+            <img src="../images/carrot.jpg" height="200px" class="card-img-top" alt="carrot">
+            <div class="card-body">
+              <h5 class="card-title">Excellent Services</h5>
+              <p class="card-text b1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+      </div> 
+      <!-- close 3 div -->
+      <div class="four">
+        <i class="fa fa-smile-o i1" aria-hidden="true"></i>
+        <pre class="p1">        600
+Happy customers</pre><span>
+          <i class="fa fa-shield i2" aria-hidden="true"></i>
+          <pre class="p2">                        350+
+                     Awards Win</pre>
+        </span>
+        <i class="fa fa-leaf i3 " aria-hidden="true"></i>
+        <pre class="p3">   250
+Products</pre>
+        <i class="fa fa-thumbs-up i4" aria-hidden="true"></i>
+        <pre class="p4">          225
+        Ratings</pre>
+      </div>
+      <!-- close 4 div -->
+      <div class="five" id="services">
+        <p style="font-size: 50px; color: crimson; text-align: center;font-style: italic;">Our Services</p>
+        <i class="fa fa-apple i5" aria-hidden="true"></i>
+        <p style="color: darkgrey; margin-left: 320px; font-size: 25px;">Garden Care</p>
+        <pre style="margin-left: 190px; font-family: 'Times New Roman', Times, serif; font-size: 15px;">                       Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit. Recusandae molestias.
+                       <i class="fa fa-envira i6" aria-hidden="true"></i> 
+                       <p class="d1">Plant Rennovation</p>
+                       <pre class="d2">Lorem ipsum dolor, sit amet consectetur 
+adipisicing elit Voluptates quae sunt dolores
+<i class="fa fa-asterisk d3" style="font-size:40px;color:palevioletred; "></i> 
+<p class="d4">Quality Products</p>
+<pre class="d5">Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Quis nisi nemo quibusdam</pre>
+<i class="fa fa-certificate d6" style="font-size:40px;color:palevioletred"></i>
+<p class="d7">Always Fresh</p>
+<pre class="d8">Lorem, ipsum dolor sit amet consectetur 
+adipisicing elit. Maiores, voluptat Provident </pre>
+<i class="fa fa-pagelines d9" aria-hidden="true"></i>
+<p class="f1">Plant Productivity</p>
+<pre class="f2">          Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit Omnis suscipit doloribus </pre>
+          <i class="fa fa-adjust f3" aria-hidden="true"></i>
+          <p class="f4">Quality Seeds</p>
+          <pre class="f5">                                                   Lorem ipsum, dolor sit amet consectetur
+                                                   adipisicing elit. Natus alias id reprehender</pre>
+      </div>
+      <!-- close 5 div -->
+      <div class="six" id="gallery">
+        <img style="border-radius: 10px;" src="../images/ag 1.jpg" height="250px" width="250px">
+        <img style="border-radius: 10px;" src="../images/ag2.jpg" height="250px" width="250px">
+        <img style="border-radius: 10px;" src="../images/ag3.jpg" height="250px" width="250px">
+        <img  style="border-radius: 10px;"src="../images/ag4.jpg" height="250px" width="250px">
+        <img style="border-radius: 10px;" src="../images/ag5.jpg" height="250px" width="250px">
+        <img style="border-radius: 10px;" src="../images/ag6.jpg" height="250px" width="250px">
+        <img  style="border-radius: 10px;"src="../images/ag 7.jpg" height="250px" width="250px">
+        <img  style="border-radius: 10px;"src="../images/ag 8.jpg" height="250px" width="250px">
+        <img  style="border-radius: 10px;"src="../images/ag 9.jpg" height="250px" width="250px">
+
+      </div>
+      <!-- close 6 div -->
+      <footer class="seven">
+         <h1 class="m">Mulching</h1><br><br><br>
+        <i class="fa fa-wifi , c" style="font-size:36px"></i>
+        <i class="fa fa-facebook-official , c" aria-hidden="true" style="font-size:36px"></i>
+        <i class="fa fa-twitter , c" aria-hidden="true" style="font-size:36px"></i>
+        <i class="fa fa-envelope , c" aria-hidden="true" style="font-size:36px"></i>
+        <i class="fa fa-instagram , c" aria-hidden="true"style="font-size:36px"></i>
+       
+       <div class="d"> © 2019 Mulching. All Rights Reserved | Design by <span class="w">W3Layouts</span></div> 
+
+      </footer>
+      <!-- div 7 close -->
+      <!-- <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#menu1">About</a></li>
+        <li><a data-toggle="tab" href="#menu2">services</a></li>
+        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+           <h3>HOME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div> 
+        <div id="menu1" class="tab-pane fade">
+          <h3>About AGRICULTURE</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <p style="font-size: 50px; color: crimson; text-align: center;font-style: italic;">Our Services</p>
+        <i class="fa fa-apple i5" aria-hidden="true"></i>
+        <p style="color: darkgrey; margin-left: 320px; font-size: 25px;">Garden Care</p>
+        <pre style="margin-left: 190px; font-family: 'Times New Roman', Times, serif; font-size: 15px;">                       Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit. Recusandae molestias.
+                       <i class="fa fa-envira i6" aria-hidden="true"></i> 
+                       <p class="d1">Plant Rennovation</p>
+                       <pre class="d2">Lorem ipsum dolor, sit amet consectetur 
+adipisicing elit Voluptates quae sunt dolores 
+<i class="fa fa-asterisk d3" style="font-size:40px;color:palevioletred; "></i> 
+<p class="d4">Quality Products</p>
+<pre class="d5">Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Quis nisi nemo quibusdam</pre>
+<i class="fa fa-certificate d6" style="font-size:40px;color:palevioletred"></i>
+<p class="d7">Always Fresh</p>
+<pre class="d8">Lorem, ipsum dolor sit amet consectetur 
+adipisicing elit. Maiores, voluptat Provident </pre>
+<i class="fa fa-pagelines d9" aria-hidden="true"></i>
+<p class="f1">Plant Productivity</p>
+<pre class="f2">          Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit Omnis suscipit doloribus </pre>
+          <i class="fa fa-adjust f3" aria-hidden="true"></i>
+          <p class="f4">Quality Seeds</p>
+          <pre class="f5">                                                   Lorem ipsum, dolor sit amet consectetur
+                                                   adipisicing elit. Natus alias id reprehender</pre>
+          
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
